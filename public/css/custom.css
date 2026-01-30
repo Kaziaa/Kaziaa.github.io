@@ -1,0 +1,52 @@
+/* ==========================================================
+   Custom CSS — Life Beyond the Equation
+   Footer watermark: guaranteed dead-center override
+   ========================================================== */
+
+.banner.footer {
+  position: relative !important;
+  background-color: #0b7f8f;
+  overflow: hidden;
+}
+
+/* FULL-WIDTH centered overlay */
+.banner.footer .footer-title {
+  position: absolute !important;
+  left: 0 !important;
+  right: 0 !important;
+  right: unset !important;   /* kills theme right:0 */
+  bottom: 20px !important;
+  width: 100% !important;
+
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+
+  margin: 0 !important;
+  padding: 0 !important;
+  text-align: center !important;
+
+  z-index: 9999 !important;
+  pointer-events: none;
+}
+
+.banner.footer .footer-watermark {
+  margin: 0 auto !important;
+  padding: 0 !important;
+
+  font-size: 2.2rem !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.12em !important;
+
+  color: rgba(255, 255, 255, 0.70) !important;
+  text-shadow: 0 2px 6px rgba(0,0,0,0.35) !important;
+
+  white-space: nowrap !important;
+  text-align: center !important;
+
+  /* extra safety against theme layout rules */
+  float: none !important;
+  position: relative !important;
+  left: auto !important;
+  right: auto !important;
+}

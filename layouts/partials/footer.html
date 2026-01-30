@@ -1,0 +1,89 @@
+<div class="section uk-section uk-padding-remove-vertical uk-margin">
+  <div class="banner footer" height="{{ .Site.Params.footerSection.height }}" style="position:relative; overflow:hidden;">
+
+    <div class="uk-container">
+      <div class="uk-grid" uk-grid>
+
+        <div class="uk-width-1-2@m">
+          {{ with .Site.Params.footerSection }}
+            <h3>{{ .title | markdownify | safeHTML }}</h3>
+            <p>{{ .content | markdownify | safeHTML }}</p>
+          {{ end }}
+        </div>
+
+        <div class="uk-width-1-2@m">
+          {{ if gt (len .Site.Languages) 1 }}
+          <div class="uk-navbar-item">
+            <div class="uk-inline">
+              <button class="uk-button uk-button-default" type="button">
+                {{ with .Site.Language }}
+                  {{ .LanguageName }}
+                {{ else }}
+                  Language
+                {{ end }}
+                <span uk-icon="icon: chevron-down"></span>
+              </button>
+
+              <div uk-dropdown="mode: click">
+                <ul class="uk-nav uk-dropdown-nav">
+                  {{ range .Site.Languages }}
+                  <li>
+                    <a href="{{ .Permalink }}" hreflang="{{ .Lang }}">
+                      {{ .LanguageName }}
+                    </a>
+                  </li>
+                  {{ end }}
+                </ul>
+              </div>
+            </div>
+          </div>
+          {{ end }}
+        </div>
+
+      </div>
+    </div>
+
+    <!-- ✅ Watermark: FORCE DEAD-CENTER (inline styles override everything) -->
+    <div
+      class="footer-title"
+      aria-hidden="true"
+      style="
+        position:absolute;
+        left:0;
+        right:0;
+        top:45%;
+        transform: translateY(-50%);
+
+        width:100%;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        text-align:center;
+        z-index:9999;
+        pointer-events:none;
+      ">
+      <h2
+        class="footer-watermark"
+        style="
+          margin:0;
+          padding:0;
+          font-size:2.2rem;
+          font-weight:700;
+          letter-spacing:0.12em;
+          color:rgba(255,255,255,0.70);
+          text-shadow:0 2px 6px rgba(0,0,0,0.35);
+          white-space:nowrap;
+        ">
+        {{ .Site.Title | markdownify | safeHTML }}
+      </h2>
+    </div>
+
+  </div>
+</div>
+
+{{ if .Store.Get "hasMermaid" }}
+<script type="module">
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
+  mermaid.initialize({ startOnLoad: true });
+</script>
+{{ end }}

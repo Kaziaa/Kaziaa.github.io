@@ -1,0 +1,45 @@
+
+
+baseURL = "https://kaziaa.github.io/"
+languageCode = "en-us"
+title = "Life Beyond the Equation"
+theme = "hugo-igloo"
+
+# Required by the theme: define the main menu
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 2
+
+  [[menu.main]]
+    name = "Blog"
+    url = "/blog/"
+    weight = 3
+
+  [[menu.main]]
+    name = "Research"
+    url = "/research/"
+    weight = 3
+
+  [[menu.main]]
+    name = "Travel"
+    url = "/travel/"
+    weight = 5
+
+  [[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 6
+
+# Theme tries to render a logo in the banner.
+# Easiest: explicitly set it empty so you remember to add one later.
+[params]
+  logo = "images/logo.png"
+  description = "Research, computation, and life beyond equations."
+  dateFormat = "2006-01-02"

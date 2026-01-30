@@ -1,0 +1,9 @@
+<section class="uk-section uk-section-small">
+  <div class="uk-container">
+    <h1 class="uk-heading-small">{{ .Site.Title }}</h1>
+    {{ with .Site.Params.description }}
+      <p class="uk-text-lead">{{ . }}</p>
+    {{ end }}
+  </div>
+</section>
+

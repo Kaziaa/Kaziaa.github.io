@@ -1,0 +1,4 @@
+{{/* Hide zero date (0001-01-01) */}}
+{{ if not .Date.IsZero }}
+  <p class="uk-article-meta">{{ .Date.Format (.Site.Params.dateFormat | default "2006-01-02") }}</p>
+{{ end }}

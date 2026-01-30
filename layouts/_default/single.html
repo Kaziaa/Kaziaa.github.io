@@ -1,0 +1,133 @@
+{{ define "main" }}
+
+<article class="uk-article">
+  <div class="uk-grid uk-flex-top" uk-grid>
+
+    {{/* Left image column ONLY if page defines Params.image */}}
+    {{ if .Params.image }}
+    <div class="uk-width-1-4@s uk-text-center">
+      <img
+        src="{{ .Params.image | relURL }}"
+        alt="{{ .Params.image_alt | default .Title }}"
+        class="uk-border-rounded"
+        style="max-width: 220px; width: 100%; height: auto;"
+      />
+    </div>
+
+    <div class="uk-width-3-4@s">
+    {{ else }}
+    <div class="uk-width-1-1@s">
+    {{ end }}
+
+      {{/* Page title (hideable per page) */}}
+      {{ if ne (.Params.show_title | default true) false }}
+      <h1 class="uk-article-title">
+        {{ .Title | markdownify | safeHTML }}
+      </h1>
+      {{ end }}
+
+      {{/* Optional subtitle */}}
+      {{ with .Params.subtitle }}
+      <h3 class="uk-heading-line">
+        <span>{{ . | markdownify | safeHTML }}</span>
+      </h3>
+      {{ end }}
+
+      {{/* Meta row: ToC + tags only (no date) */}}
+      <div class="uk-border-top uk-article-meta uk-flex uk-flex-between uk-flex-middle">
+
+        {{ if and (gt .WordCount 400) (.Params.toc | default true) }}
+        <button
+          class="uk-button uk-button-default uk-margin-small-right uk-position-z-index"
+          uk-sticky="offset: 90; show-on-up: true; animation: uk-animation-slide-top"
+          type="button"
+          uk-toggle="target: #offcanvas-reveal">
+          Table of Contents
+        </button>
+        {{ end }}
+
+        {{ with .GetTerms "tags" }}
+        <div class="uk-flex uk-flex-wrap uk-flex-right">
+          {{ range . }}
+          <div class="uk-card uk-margin-left uk-margin-bottom">
+            <a href="{{ .RelPermalink }}" class="uk-label uk-label-secondary tags">
+              {{ .LinkTitle }}
+            </a>
+          </div>
+          {{ end }}
+        </div>
+        {{ end }}
+
+      </div>
+
+      {{/* Optional summary */}}
+      {{ with .Params.summary }}
+      <p class="uk-text-lead">
+        {{ . | markdownify | safeHTML }}
+      </p>
+      {{ end }}
+
+      {{/* Main content */}}
+      <div class="uk-markdown uk-width">
+        {{ .Content }}
+      </div>
+
+    </div> {{/* close content column */}}
+
+    {{/* Off-canvas Table of Contents */}}
+    <div id="offcanvas-reveal" uk-offcanvas="mode: reveal; overlay: true">
+      <div class="uk-offcanvas-bar">
+        <button class="uk-offcanvas-close" type="button" uk-close></button>
+        <h3>Table of Contents</h3>
+        {{ .TableOfContents }}
+      </div>
+    </div>
+
+  </div>
+</article>
+
+{{/* Section-based extras */}}
+{{- $section := .Site.GetPage "section" .Section -}}
+
+{{- if $section -}}
+
+  {{/* Citation: disabled for About */}}
+  {{- if and ($section.Params.citation | default true) (ne .Section "about") -}}
+    {{ partial "citation.html" . }}
+  {{- end -}}
+
+  {{/* Related content (optional) */}}
+  {{- if $section.Params.related | default false -}}
+  <div class="section">
+    <div class="uk-section">
+      <div class="uk-position-relative uk-visible-toggle uk-light timeline-horizontal"
+           tabindex="-1"
+           uk-slider="clsActivated: uk-transition-active; center: true">
+
+        <ul class="uk-slider-items uk-grid">
+          {{ range .Site.RegularPages.Related . | first 5 }}
+          {{ $params := (partial "funcs/page2timeline.html" .) }}
+          <li class="uk-width-3-4">
+            {{ partial "timeline/horiz-li.html" $params }}
+          </li>
+          {{ end }}
+        </ul>
+
+        <a class="uk-position-center-left uk-position-small slide-nav-primary"
+           href uk-slidenav-previous uk-slider-item="previous"></a>
+        <a class="uk-position-center-right uk-position-small slide-nav-primary"
+           href uk-slidenav-next uk-slider-item="next"></a>
+
+      </div>
+    </div>
+  </div>
+  {{- end -}}
+
+{{- end -}}
+
+{{/* Comments (optional, section-controlled) */}}
+{{ if and $section ($section.Params.comments | default true) }}
+  {{ partial "comments.html" . }}
+{{ end }}
+
+{{ end }}
