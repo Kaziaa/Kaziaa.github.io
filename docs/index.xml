@@ -6,8 +6,22 @@
     <description>Recent content on Life Beyond the Equation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 19 Jan 2026 12:50:27 +0100</lastBuildDate>
     <atom:link href="https://Kaziaa.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Blog</title>
+      <link>https://Kaziaa.github.io/blog/</link>
+      <pubDate>Mon, 19 Jan 2026 12:50:27 +0100</pubDate>
+      <guid>https://Kaziaa.github.io/blog/</guid>
+      <description>Welcome to my daily Blog.</description>
+    </item>
+    <item>
+      <title>Travel</title>
+      <link>https://Kaziaa.github.io/travel/</link>
+      <pubDate>Mon, 19 Jan 2026 12:50:04 +0100</pubDate>
+      <guid>https://Kaziaa.github.io/travel/</guid>
+      <description></description>
+    </item>
     <item>
       <title>About</title>
       <link>https://Kaziaa.github.io/about/</link>
