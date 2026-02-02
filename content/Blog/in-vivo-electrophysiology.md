@@ -1,7 +1,10 @@
 ---
-title: Electrophysiology (in vivo)
+layout: post
+title: "Electrophysiology (in vivo)"
 date: 2026-02-02
+permalink: /blog/in-vivo-electrophysiology/
 ---
+
 
 # In vivo electrophysiology
 

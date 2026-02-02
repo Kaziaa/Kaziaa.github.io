@@ -1,7 +1,11 @@
-+++
-title = 'Blog'
-date = 2026-01-19T12:50:27+01:00
-draft = false
-+++
+---
+layout: page
+title: Blog
+permalink: /blog/
+---
+
 
 Welcome to  my daily Blog.
+## Posts
+- [Electrophysiology (in vivo)](/blog/in-vivo-electrophysiology/)
+
