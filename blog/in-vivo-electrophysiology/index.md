@@ -1,9 +1,10 @@
----
-layout: post
-title: "Electrophysiology (in vivo)"
-date: 2026-02-02
-permalink: /blog/in-vivo-electrophysiology/
----
++++
+title = "Electrophysiology (in vivo)"
+date = 2026-02-02
+draft = false
+image = "cover.png"
+image_alt = "In vivo electrophysiology recording setup"
++++
 
 
 # In vivo electrophysiology

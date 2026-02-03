@@ -1,9 +1,9 @@
 
-+++
+---
 title = "Research"
 subtitle = "Ion channels, signaling, and Chemo-genomics"
 draft = false
-+++
+---
 
 ## Research overview
 ![Structure-based drug discovery](/images/drug-discovery.png)
