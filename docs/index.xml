@@ -6,21 +6,14 @@
     <description>Recent content on Life Beyond the Equation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 19 Jan 2026 12:50:27 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 02 Feb 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://Kaziaa.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Blog</title>
-      <link>https://Kaziaa.github.io/blog/</link>
-      <pubDate>Mon, 19 Jan 2026 12:50:27 +0100</pubDate>
-      <guid>https://Kaziaa.github.io/blog/</guid>
-      <description>Welcome to my daily Blog.</description>
-    </item>
-    <item>
-      <title>Travel</title>
-      <link>https://Kaziaa.github.io/travel/</link>
-      <pubDate>Mon, 19 Jan 2026 12:50:04 +0100</pubDate>
-      <guid>https://Kaziaa.github.io/travel/</guid>
-      <description></description>
+      <title>Electrophysiology (in vivo)</title>
+      <link>https://Kaziaa.github.io/blog/in-vivo-electrophysiology/</link>
+      <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://Kaziaa.github.io/blog/in-vivo-electrophysiology/</guid>
+      <description>In vivo electrophysiology in vivo electrophysiology is the technique of recording electrical signals from living cells (usually neurons) inside a living animal (e.g. mouse, rat , zebrafish).&#xA;Listen to the electrical &amp;ldquo;Language&amp;rdquo; of the brain while it is live and functioning. Neurons communicate via electrical signals:&#xA;Action potentials (Spikes) &amp;ndash; fast (~1 ms) Local field potentials (LFP) &amp;ndash; slow populations signals Recording is done as voltage vs time and from single neurons or groups </description>
     </item>
     <item>
       <title>About</title>
