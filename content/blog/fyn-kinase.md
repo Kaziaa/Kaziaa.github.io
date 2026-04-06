@@ -5,7 +5,6 @@ draft: false
 type: "blog"
 ---
 
-# 🧠 Fyn Kinase: A Central Regulator in Brain Function, Neurodegeneration, and Cancer
 
 ## 🔬 Introduction
 
