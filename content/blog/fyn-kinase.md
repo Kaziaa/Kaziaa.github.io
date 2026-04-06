@@ -2,6 +2,7 @@
 title: "Fyn Kinase: A Central Regulator in Brain Function, Neurodegeneration, and Cancer"
 date: 2026-04-03
 draft: false
+type: "blog"
 ---
 
 # 🧠 Fyn Kinase: A Central Regulator in Brain Function, Neurodegeneration, and Cancer
