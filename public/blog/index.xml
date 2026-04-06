@@ -1,19 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog on Life Beyond the Equation</title>
+    <title>Blogs on Life Beyond the Equation</title>
     <link>http://localhost:1313/blog/</link>
-    <description>Recent content in Blog on Life Beyond the Equation</description>
+    <description>Recent content in Blogs on Life Beyond the Equation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 02 Feb 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Electrophysiology (in vivo)</title>
-      <link>http://localhost:1313/blog/in-vivo-electrophysiology/</link>
-      <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/in-vivo-electrophysiology/</guid>
-      <description>In vivo electrophysiology in vivo electrophysiology is the technique of recording electrical signals from living cells (usually neurons) inside a living animal (e.g. mouse, rat , zebrafish).&#xA;Listen to the electrical &amp;ldquo;Language&amp;rdquo; of the brain while it is live and functioning. Neurons communicate via electrical signals:&#xA;Action potentials (Spikes) &amp;ndash; fast (~1 ms) Local field potentials (LFP) &amp;ndash; slow populations signals Recording is done as voltage vs time and from single neurons or groups </description>
+      <title></title>
+      <link>http://localhost:1313/blog/kcnq1-electrophysiology.md/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/kcnq1-electrophysiology.md/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kazi blog</title>
+      <link>http://localhost:1313/blog/fyn-kinase/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/fyn-kinase/</guid>
+      <description>title: &amp;lsquo;Kazi Blog&amp;rsquo; disqus: Kazi Kazi blog Table of Contents [TOC]&#xA;1. Fyn kinase +++ title: &amp;ldquo;FYN kinase&amp;rdquo; date: 2026-04-06 draft = false +++&#xA;Fyn kinase a drug target Fyn kinase, a member of the Src family of non-receptor tyrosine kinases, serves as a &amp;ldquo;master regulator&amp;rdquo; in the central nervous system, influencing both healthy development and the progression of complex diseases like Alzheimer’s, Parkinson’s, and brain tumors. While it is essential for processes like myelination and synaptic transmission, its overactivation creates a toxic environment that drives neurodegeneration and drug resistance.</description>
     </item>
   </channel>
 </rss>
