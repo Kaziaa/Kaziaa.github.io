@@ -2,20 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://Kaziaa.github.io/blog/kcnq1-electrophysiology.md/</loc>
-  </url><url>
     <loc>https://Kaziaa.github.io/blog/</loc>
+    <lastmod>2026-04-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://Kaziaa.github.io/blog/fyn-kinase/</loc>
+    <lastmod>2026-04-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://Kaziaa.github.io/</loc>
+    <lastmod>2026-04-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://Kaziaa.github.io/blog/kcnq1-electrophysiology.md/</loc>
   </url><url>
     <loc>https://Kaziaa.github.io/categories/</loc>
   </url><url>
-    <loc>https://Kaziaa.github.io/tags/documentation/</loc>
-  </url><url>
-    <loc>https://Kaziaa.github.io/blog/fyn-kinase/</loc>
-  </url><url>
-    <loc>https://Kaziaa.github.io/</loc>
-  </url><url>
     <loc>https://Kaziaa.github.io/tags/</loc>
-  </url><url>
-    <loc>https://Kaziaa.github.io/tags/templates/</loc>
   </url>
 </urlset>

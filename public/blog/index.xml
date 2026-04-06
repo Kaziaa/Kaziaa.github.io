@@ -6,20 +6,21 @@
     <description>Recent content in Blogs on Life Beyond the Equation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Fri, 03 Apr 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://Kaziaa.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fyn Kinase: A Central Regulator in Brain Function, Neurodegeneration, and Cancer</title>
+      <link>https://Kaziaa.github.io/blog/fyn-kinase/</link>
+      <pubDate>Fri, 03 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://Kaziaa.github.io/blog/fyn-kinase/</guid>
+      <description>🧠 Fyn Kinase: A Central Regulator in Brain Function, Neurodegeneration, and Cancer 🔬 Introduction Fyn kinase is a non-receptor tyrosine kinase belonging to the Src family and plays a critical role in the central nervous system (CNS). It regulates brain development, synaptic signaling, and is strongly implicated in neurodegenerative diseases and cancer.&#xA;🧩 Role in Brain Development and Function 🧠 CNS Myelination Fyn is essential for myelination. Loss of Fyn leads to significant myelin deficits in the forebrain.</description>
+    </item>
     <item>
       <title></title>
       <link>https://Kaziaa.github.io/blog/kcnq1-electrophysiology.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://Kaziaa.github.io/blog/kcnq1-electrophysiology.md/</guid>
       <description></description>
-    </item>
-    <item>
-      <title>Kazi blog</title>
-      <link>https://Kaziaa.github.io/blog/fyn-kinase/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://Kaziaa.github.io/blog/fyn-kinase/</guid>
-      <description>title: &amp;lsquo;Kazi Blog&amp;rsquo; disqus: Kazi Kazi blog Table of Contents [TOC]&#xA;1. Fyn kinase +++ title: &amp;ldquo;FYN kinase&amp;rdquo; date: 2026-04-06 draft = false +++&#xA;Fyn kinase a drug target Fyn kinase, a member of the Src family of non-receptor tyrosine kinases, serves as a &amp;ldquo;master regulator&amp;rdquo; in the central nervous system, influencing both healthy development and the progression of complex diseases like Alzheimer’s, Parkinson’s, and brain tumors. While it is essential for processes like myelination and synaptic transmission, its overactivation creates a toxic environment that drives neurodegeneration and drug resistance.</description>
     </item>
   </channel>
 </rss>

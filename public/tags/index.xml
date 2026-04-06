@@ -7,19 +7,5 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <atom:link href="https://Kaziaa.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Documentation</title>
-      <link>https://Kaziaa.github.io/tags/documentation/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://Kaziaa.github.io/tags/documentation/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Templates</title>
-      <link>https://Kaziaa.github.io/tags/templates/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://Kaziaa.github.io/tags/templates/</guid>
-      <description></description>
-    </item>
   </channel>
 </rss>
