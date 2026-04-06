@@ -16,11 +16,11 @@
       <description>🔬 Introduction Fyn kinase is a non-receptor tyrosine kinase belonging to the Src family and plays a critical role in the central nervous system (CNS). It regulates brain development, synaptic signaling, and is strongly implicated in neurodegenerative diseases and cancer.&#xA;🧩 Role in Brain Development and Function 🧠 CNS Myelination Fyn is essential for myelination. Loss of Fyn leads to significant myelin deficits in the forebrain.&#xA;🔗 Oligodendrocyte Differentiation Fyn interacts with α-tubulin and Tau to stabilize microtubules, enabling oligodendrocytes to form myelin sheaths.</description>
     </item>
     <item>
-      <title></title>
+      <title>Electrophysiology (in vivo)</title>
       <link>https://Kaziaa.github.io/blog/kcnq1-electrophysiology/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
       <guid>https://Kaziaa.github.io/blog/kcnq1-electrophysiology/</guid>
-      <description></description>
+      <description>In vivo electrophysiology is the technique of recording electrical signals from living cells (usually neurons) inside a living animal, such as mouse, rat, or zebrafish.&#xA;Neurons communicate via electrical signals:&#xA;Action potentials (spikes) — fast, around 1 ms Local field potentials (LFP) — slower population signals Recording is done as voltage versus time and can be obtained from single neurons or groups of neurons.</description>
     </item>
   </channel>
 </rss>
